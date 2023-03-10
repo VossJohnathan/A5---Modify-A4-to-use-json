@@ -105,8 +105,15 @@ namespace A4___Movie_Library_Assignment
                 Console.WriteLine("Enter a Movie Title Keyword to search");
                 string userSearch = Console.ReadLine();
 
+                //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                //Error here, not sure how to fix...
+
+                //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
                 /*
                 DataRow[] result = movies.Select($"title LIKE '%{EscapeLikeValue(userSearch)}%'");
+
                 //Returning number of results found, in case the keyword returns nothing.
                 Console.WriteLine("Results found: {0}", result.Length);
                 foreach (DataRow row in result)
